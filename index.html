@@ -36,10 +36,6 @@
             visibility: hidden;
             pointer-events: none;
         }
-        .loader {
-            width: 300px;
-            height: 300px;
-        }
         .navbar {
             position: fixed;
             width: 100%;
@@ -451,6 +447,7 @@
     <div id="loader-wrapper">
         <dotlottie-wc class="loader"
             src="https://lottie.host/71d9d5b8-7162-4ddc-a33b-59f97e0fe8f2/E2N1hWBBul.lottie"
+            style="width: 1000px; height: 1000px;"
             speed="1"
             autoplay
             loop
@@ -775,7 +772,7 @@
             const loaderWrapper = document.getElementById('loader-wrapper');
             setTimeout(() => {
                 loaderWrapper.classList.add('loader--hidden');
-            }, 3000); 
+            }, 8000); 
         });
     </script>
 
@@ -822,5 +819,6 @@
 </body>
 
 </html>
+
 
 
